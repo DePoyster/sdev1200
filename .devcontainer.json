@@ -1,11 +1,18 @@
 {
-  "features": {
-      "ghcr.io/devcontainers/features/desktop-lite": {}
-  },
-  "forwardPorts": [6080],
-  "portsAttributes": {
-      "6080": {
-          "label": "desktop"
-      }
+    "customizations": {
+        "vscode":{
+            "extensions":[
+                "tonybaloney.vscode-pets"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/desktop-lite": {}
+    },
+    "forwardPorts": [6080],
+    "portsAttributes": {
+        "6080": {
+            "label": "desktop"
+    }
   }
 }
